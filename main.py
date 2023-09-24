@@ -1,6 +1,10 @@
 """Main function goes here"""
+import os
+import sys
+import re
 
 
-def func(input1):
-    """define an add function"""
-    return input1 + 1
+def os_and_sys_version():
+    python_version = re.search(r"\d+\.\d+", sys.version).group()
+    os_name = os.getenv("RUNNER_OS")
+    return python_version, os_name
