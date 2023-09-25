@@ -1,3 +1,4 @@
+[![CI](https://github.com/nogibjj/Fall2023_IDS706_MiniProject4_JiayiZhou/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Fall2023_IDS706_MiniProject4_JiayiZhou/actions/workflows/CI.yml)
 # Fall2023_IDS706 Mini Project 4
 ### Purpose
 This is for class data engineering mini-project 4. 
